@@ -1,0 +1,37 @@
+# VitePress build output
+.vitepress/dist
+.vitepress/cache
+
+# Node dependencies
+node_modules
+
+# Build files
+dist
+dist-ssr
+
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Coverage directory (for tests)
+coverage
