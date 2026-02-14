@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/',
+  base: '/docs/',
   title: "Mason",
   description: "Mason • A Vue3.x project about management system template.",
   themeConfig: {
