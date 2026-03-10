@@ -4,6 +4,9 @@ import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import './style.css'
 
+import PhotoAlbum from './components/PhotoAlbum.vue'
+import LandingPage from './components/LandingPage.vue'
+
 export default {
   extends: DefaultTheme,
   Layout: () => {
@@ -12,6 +15,7 @@ export default {
     })
   },
   enhanceApp({ app, router, siteData }) {
-    // ...
+    app.component('PhotoAlbum', PhotoAlbum)
+    app.component('LandingPage', LandingPage)
   }
 } satisfies Theme

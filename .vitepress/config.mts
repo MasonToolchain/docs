@@ -5,7 +5,9 @@ export default defineConfig({
   base: '/docs/',
   title: "Mason",
   description: "Vue3 中后台管理模板",
+  head: [['link', { rel: 'icon', href: '/assets/svg/favicon.svg' }]],
   themeConfig: {
+    logo: '/assets/svg/favicon.svg',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
@@ -25,7 +27,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/ZRMYDYCG/Mason' }
     ]
   }
 })
