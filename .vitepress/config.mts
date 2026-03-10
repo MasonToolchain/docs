@@ -4,20 +4,22 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   base: '/docs/',
   title: "Mason",
-  description: "Mason • A Vue3.x project about management system template.",
+  description: "Vue3 中后台管理模板",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '首页', link: '/' },
+      { text: '指南', link: '/guide/basic-template' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: '指南',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '基础模板', link: '/guide/basic-template' },
+          { text: 'CLI 工具', link: '/guide/cli' },
+          { text: 'Server 开发', link: '/guide/server' },
+          { text: 'Web 开发', link: '/guide/web' }
         ]
       }
     ],

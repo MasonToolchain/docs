@@ -4,22 +4,22 @@ layout: home
 
 hero:
   name: "Mason"
-  text: "Mason • A Vue3.x project about management system template."
-  tagline: My great project tagline
+  text: "Vue3 中后台管理模板"
+  tagline: 高效、灵活、现代化的开发基础
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 基础模板
+      link: /guide/basic-template
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: CLI 工具
+      link: /guide/cli
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 强大的 CLI 支持
+    details: 使用配套的 Mason CLI 工具，一键快速创建和初始化您的项目。
+  - title: Vue 3 + TypeScript
+    details: 基于最新的 Vue 3 和 TypeScript 技术栈，提供健壮的开发体验。
+  - title: Vite 极速构建
+    details: 采用 Vite 作为构建工具，享受闪电般的开发服务器启动和热更新速度。
 ---
 
