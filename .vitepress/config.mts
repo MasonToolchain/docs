@@ -20,8 +20,8 @@ export default defineConfig({
         items: [
           { text: '基础模板', link: '/guide/basic-template' },
           { text: 'CLI 工具', link: '/guide/cli' },
-          { text: 'Server 开发', link: '/guide/server' },
-          { text: 'Web 开发', link: '/guide/web' }
+          { text: 'Server', link: '/guide/server' },
+          { text: 'Web', link: '/guide/web' }
         ]
       }
     ],
