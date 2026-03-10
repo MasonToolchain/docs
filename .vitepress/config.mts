@@ -2,12 +2,12 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/docs/',
+  base: '/',
   title: "Mason",
   description: "Vue3 中后台管理模板",
-  head: [['link', { rel: 'icon', href: '/docs/assets/svg/favicon.svg' }]],
+  head: [['link', { rel: 'icon', href: '/assets/svg/favicon.svg' }]],
   themeConfig: {
-    logo: '/docs/assets/svg/favicon.svg',
+    logo: '/assets/svg/favicon.svg',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
